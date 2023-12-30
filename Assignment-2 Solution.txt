@@ -1,0 +1,211 @@
+Assignment-2 Solution
+
+
+Q.1
+Arithmetic Operator
+Relational Operator
+Assignment Operator
+Conditional Operator
+Logical Operator
+Unary Operator
+Bitwise Operator
+
+
+Q.2
+Increament Operator : 
+There are two type of increament Operator
+
+a) Post Increment (a++)
+   first use the value and then increase the value by 1
+
+ex- 
+int a = 10;
+int b = a++;
+System.out.println(b);//10
+System.out.println(a);//11
+
+
+
+
+b) Pre Increment (++a)
+ First increase the value by 1 and then use it
+      
+ ex-    
+int a = 10;
+int b = ++a;
+System.out.println(b);//11
+System.out.println(a);//11
+
+
+
+Decrement Operator :
+
+a) Post Decrement (a--)
+      first use the value and then decrease the value by 1
+
+ ex-    
+int a = 10;
+int b = a--;
+System.out.println(b);//10
+System.out.println(a);//9
+
+b) Pre Decrement (--a)
+       First decrease the value by 1 and then use it
+ ex-    
+int a = 10;
+int b = --a;
+System.out.println(b);//9
+System.out.println(a);//9
+
+
+Q.3
+Conditional operator
+==> LOGICAL OPERATOR
+
+    1.&&
+
+int a=5;
+int b=6;
+int x=7;
+if(a>5 && b<20)
+x++;
+else
+x--;
+System.out.println(x);//6
+
+
+    2.||
+
+int a=5;
+int b=6;
+int x=7;
+if(a>5 || b<20)
+x++;
+else
+x--;
+System.out.println(x);//8
+
+
+Syntax: condition?true:false;
+int a=5;
+int b=6;
+int c=a>b?10:12;
+System.out.println(c);//12
+
+
+Q.4
+x++ ==> unary operator
+op1+op2 ==> binary operator
+condition?true:false; ==> ternary operator
+
+
+Q.5
+Conditional Statement
+
+1)if-else
+
+if(condition)
+  statement-1;
+else
+  statement-2;
+
+
+2)if else -if
+
+if(condition)
+    statement-1;
+else if
+    statement-2;
+else
+    statement-3;
+
+condition-1?condition-2?true2:false2:false1;
+
+
+
+Q.6
+
+if(condition)
+  statement-1;
+else
+  statement-2;
+
+ex-
+
+if(n%2==0)
+   System.out.println("even number");
+else
+    System.out.println("ODd number");
+
+Output : n=2
+         even number
+
+
+
+Q.7
+
+a) while(true){
+
+}
+
+b) for(initalization;condition;incr/decr){
+
+}
+
+
+c) do{
+
+}while(condition);
+
+
+Q.8
+Array => it refers to index collection of homogenous data or it is a collection of object.
+It is treated as a object in java
+
+
+Q.9
+int[] arr = new int[size of array];
+
+ex=> int[] arr = new int[3];
+arr[0] = 10; 
+arr[1] = 20; 
+arr[2] = 30; 
+
+int arr[] = {10,20,3,50};
+
+
+Q.10:
+StringBuffer =>
+              StringBuffer methods are synchronized, which means  
+              that only one thread can execute a method of StringBuffer at a time.
+
+StringBuilder =>
+              StringBuilder methods are not synchronized. This lack of synchronization 
+              makes StringBuilder more efficient in scenarios where thread safety is not a concern.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
