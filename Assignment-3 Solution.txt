@@ -1,0 +1,80 @@
+Assignment-3 Solution
+
+
+
+Q-1>
+====> JVM (Java Virtual Machine):
+           The JVM is a virtual machine that executes Java bytecode. 
+           It provides a runtime environment in which Java programs can be executed.
+
+      
+      JRE (Java Runtime Environment):
+           The JRE is a package of software that includes the JVM and other libraries and components necessary for running Java applications.
+           It provides the runtime environment for Java applications to execute.
+
+      JDK (Java Development Kit):
+           It includes the JRE, as well as development tools such as compilers, debuggers, and other utilities required for building and testing Java applications.
+           Developers use the JDK to write, compile, and debug Java code.
+
+
+Q-2>
+====>  Java's platform independence is achieved through the combination of compiling source code 
+       into platform-independent bytecode and executing that bytecode on a Java Virtual Machine, 
+       which is specific to each platform. This design allows Java applications to be highly portable 
+       and run on various devices and operating systems without modification.
+
+Q-3>
+====> 1- Developers write Java programs using a text editor or an integrated development environment (IDE). 
+       The source code is typically saved with a .java extension.
+   
+      2- The Java source code is then compiled by the Java compiler (javac). 
+       The compiler translates the human-readable Java source code into an intermediate form called bytecode.
+
+      3- The combination of bytecode, the Java Virtual Machine, and the Java runtime environment contributes to 
+       Java's platform independence, allowing developers to write code once and run it on various platforms without modification.
+
+
+Q-4>
+====>  varargs (variable-length argument lists) is a feature in Java that allows a method to accept a variable number of arguments
+       of a specified type. It is represented by an ellipsis (...) followed by the type of the arguments. 
+       This feature provides flexibility when defining methods that need to handle different numbers of arguments.
+
+
+Q-5>
+====>  1- Local Variables:
+
+          public class Example {
+              public void method() {
+                int localVar = 10; // Local variable
+                  // ... rest of the code
+             }
+         }
+
+       2- Instance Variable:
+
+         public class Example {
+              int instanceVar; // Instance variable
+         }
+
+       3- Static Variable:
+
+          public class Example {
+             static int classVar; // Class variable
+          }
+
+
+Q-6>
+====> 1- Method Area
+      2- Stack Area
+      3- Heap Area
+
+Q-7>
+====>  The Just-In-Time Compiler (JIT) is a component of the Java Runtime Environment (JRE) that plays a crucial role
+       in improving the performance of Java programs. Instead of interpreting Java bytecode line by line, 
+       the JIT compiler translates the entire bytecode of a Java program into native machine code at runtime. 
+       This native code is then executed directly by the host system's hardware.
+
+
+
+
+
